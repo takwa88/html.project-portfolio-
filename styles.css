@@ -1,0 +1,133 @@
+/* === Reset de base === */
+/* Enlève les marges et les espaces par défaut de tous les éléments */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Permet de mieux gérer la taille des éléments */
+}
+
+/* === Corps de la page === */
+/* Style général du fond de page et du texte */
+body {
+  font-family: Arial, sans-serif; /* Police d’écriture */
+  background-color: #f0f2f5; /* Couleur de fond claire */
+  color: #333; /* Couleur du texte (gris foncé) */
+  line-height: 1.6; /* Espacement entre les lignes */
+}
+
+/* === En-tête === */
+/* Haut de la page : titre ou logo */
+header {
+  background-color: #3f51b5; /* Fond bleu */
+  color: white; /* Texte blanc */
+  text-align: center; /* Texte centré */
+  padding: 30px 0; /* Espace intérieur en haut et en bas */
+  border-bottom: 5px solid #303f9f; /* Ligne en bas de l’en-tête */
+}
+
+/* === Barre de navigation === */
+/* Zone contenant les liens de menu */
+nav {
+  background-color: #ffffff; /* Fond blanc */
+  text-align: center; /* Contenu centré */
+  padding: 15px; /* Espace intérieur */
+  border-bottom: 1px solid #ccc; /* Ligne fine en bas */
+}
+
+nav a {
+  text-decoration: none; /* Enlève le soulignement des liens */
+  color: #3f51b5; /* Texte bleu */
+  font-weight: bold; /* Texte en gras */
+  margin: 0 15px; /* Espace entre les liens */
+  padding: 8px 12px; /* Espace intérieur */
+  border-radius: 5px; /* Bords arrondis */
+}
+
+nav a:hover {
+  background-color: #e8eaf6; /* Fond bleu clair au survol */
+  color: #1a237e; /* Texte plus foncé au survol */
+}
+
+/* === Sections générales === */
+/* Style des blocs principaux de contenu */
+section {
+  background-color: white; /* Fond blanc */
+  max-width: 900px; /* Largeur maximale */
+  margin: 30px auto; /* Centré avec un espace autour */
+  padding: 30px; /* Espace intérieur */
+  border-radius: 10px; /* Coins arrondis */
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Ombre légère autour */
+}
+
+/* === Titre des sections === */
+/* Style des titres des parties */
+.section-title {
+  color: #3f51b5; /* Couleur bleue */
+  margin-bottom: 20px; /* Espace en bas */
+  font-size: 24px; /* Taille du texte */
+}
+
+/* === Images === */
+/* Style appliqué aux images */
+img {
+  max-width: 100%; /* L’image ne dépasse pas la largeur de son parent */
+  border-radius: 8px; /* Coins légèrement arrondis */
+  margin-top: 15px; /* Espace au-dessus de l’image */
+}
+
+/* === Tableau === */
+/* Style général des tableaux */
+table {
+  width: 100%; /* Prend toute la largeur disponible */
+  border-collapse: collapse; /* Colle les bordures entre elles */
+  margin-top: 20px; /* Espace au-dessus du tableau */
+}
+
+th, td {
+  border: 1px solid #ccc; /* Bordure grise autour des cellules */
+  padding: 12px; /* Espace intérieur des cellules */
+  text-align: left; /* Texte aligné à gauche */
+}
+
+th {
+  background-color: #3f51b5; /* Fond bleu pour l’en-tête */
+  color: white; /* Texte blanc */
+}
+
+/* === Formulaire === */
+/* Style du formulaire */
+form {
+  display: flex;
+  flex-direction: column; /* Les éléments sont en colonne */
+}
+
+input, textarea, button {
+  padding: 10px; /* Espace intérieur */
+  margin-top: 10px; /* Espace au-dessus */
+  border-radius: 5px; /* Coins arrondis */
+  border: 1px solid #ccc; /* Bordure grise */
+}
+
+button {
+  background-color: #3f51b5; /* Fond bleu */
+  color: white; /* Texte blanc */
+  font-weight: bold; /* Texte en gras */
+  border: none; /* Pas de bordure */
+  cursor: pointer; /* Curseur en forme de main */
+}
+
+button:hover {
+  background-color: #303f9f; /* Fond plus foncé au survol */
+}
+
+/* === Pied de page === */
+/* Bas de la page */
+footer {
+  background-color: #3f51b5; /* Fond bleu */
+  color: white; /* Texte blanc */
+  text-align: center; /* Texte centré */
+  padding: 20px; /* Espace intérieur */
+  margin-top: 50px; /* Espace au-dessus */
+  border-top-left-radius: 10px;  /* Coin arrondi à gauche en haut */
+  border-top-right-radius: 10px; /* Coin arrondi à droite en haut */
+}
